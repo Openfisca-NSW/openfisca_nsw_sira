@@ -1,4 +1,4 @@
-## -*- coding: utf-8 -*-
+# -*- coding: utf-8 -*-
 from setuptools import setup, find_packages
 
 setup(
@@ -30,7 +30,7 @@ setup(
             "autopep8 ==1.4.4",
             "flake8 >=3.5.0,<3.8.0",
             "flake8-print",
-            "pycodestyle >=2.3.0,<2.6.0",  # To avoid incompatibility with flake
+            "pycodestyle >=2.4.0,<2.6.0",  # To avoid incompatibility with flake
             ]
         },
     packages=find_packages(),
