@@ -1,11 +1,11 @@
-# -*- coding: utf-8 -*-
+## -*- coding: utf-8 -*-
 from setuptools import setup, find_packages
 
 setup(
-    name="$EXT_NAME",
-    version="0.0.1",
-    author="Department of Customer Service - NSW Government",
-    author_email = 'sara.falamaki@customerservice.nsw.gov.au',
+    name="openfisca_nsw_sira",
+    version="1.3.2",
+    author="OpenFisca Team",
+    author_email = 'james.vlazny@customerservice.nsw.gov.au',
     classifiers=[
         "Development Status :: 5 - Production/Stable",
         "License :: OSI Approved :: GNU Affero General Public License v3",
@@ -16,10 +16,10 @@ setup(
     description="An OpenFisca extension that adds some variables to an already-existing tax and benefit system",
     keywords = 'benefit microsimulation social tax',
     license="http://www.fsf.org/licensing/licenses/agpl-3.0.html",
-    url = "https://github.com/Openfisca-NSW/$EXT_NAME",
+    url = "https://github.com/Openfisca-NSW/openfisca_nsw_sira.git",
     include_package_data = True,  # Will read MANIFEST.in
     data_files = [
-        ("share/openfisca/$EXT_NAME", ["CHANGELOG.md", "LICENSE", "README.md"]),
+        ("share/openfisca/openfisca_nsw_sira", ["CHANGELOG.md", "LICENSE", "README.md"]),
         ],
     install_requires = [
         'OpenFisca_nsw_base'
